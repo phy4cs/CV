@@ -1,0 +1,240 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis-Styled CV
+% LaTeX Template (modified)
+% Version 1.0 (22/2/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% THIS IS THE 3-PAGE VERSION WITH EDUCATION SECION FIRST
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{scrartcl}
+
+\reversemarginpar % Move the margin to the left of the page 
+
+\newcommand{\MarginText}[1]{\marginpar{\raggedleft\bfseries\large#1}} % New command defining the margin text style
+
+\usepackage[nochapters]{classicthesis} % Use the classicthesis style for the style of the document
+\usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
+
+\renewcommand{\cvheadingfont}{\LARGE\color{Maroon}} % Font color of your name at the top
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\hypersetup{colorlinks, breaklinks, urlcolor=Maroon, linkcolor=Maroon} % Set link colors
+
+\newlength{\datebox}\settowidth{\datebox}{Summer 2015} % Set the width of the date box in each block
+
+\newcommand{\NewEntry}[3]{\noindent\hangindent=1em\hangafter=0 \parbox{\datebox}{\small \textit{#1}}\hspace{0em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+\vspace{0.5em}} % Add some white space after each new entry
+
+\newcommand{\Description}[1]{\hangindent=1em\hangafter=0\noindent\footnotesize{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+
+\addtolength{\evensidemargin}{-1in}
+\addtolength{\textwidth}{1in}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{empty} % Stop the page count at the bottom of the first page
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{cv}{\spacedallcaps{Christopher Symonds}}\vspace{1.5em} % Your name
+
+\noindent\spacedallcaps{Personal Information}\vspace{0.5em} % Personal information heading
+
+\NewEntry{address}{1 Hawksworth Grove, Leeds, LS5 3NB} % Email address
+
+\NewEntry{email}{\href{mailto:chris.c.symonds@gmail.com}{chris.c.symonds@gmail.com}} % Email address
+
+\NewEntry{phone}{(H) (0113) 228 0340\ \ $\cdotp$\ \ (M) (0785) 326 1340} % Phone number(s)
+
+\vspace{1em} % Extra white space between the personal information section and goal
+
+\noindent\spacedallcaps{Profile}\vspace{1em} % Goal heading, could be used for a quotation or short profile instead
+
+\Description{I am a current post graduate research student approaching the completion of my PhD in the field of computational and theoretical chemistry. I am looking for a fun and challenging position where the skills I have acquired over the the last few years can be applied to their fullest.}\vspace{0.5em} % Goal text
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedallcaps{Education}\vspace{1em}
+
+\NewEntry{2012-Present}{\MarginText{PhD in Computational Chemistry}\small \textbf{University of Leeds}}{\hfill \textit{School of Chemistry}}
+
+\Description{Thesis: \textit{Simulation of Quantum Effects by use of the Coupled Coherent States Family of Methods}\newline
+	
+	{Description: This work involved creating and expanding a large, modular and adaptable program using Fortran to make the necessary calculations and running this program using the ARC multicore cluster computing facility.}\newline
+	Advisor: Prof.~Dmitry \textsc{Shalashilin}, \href{mailto:D.Shalashilin@leeds.ac.uk}{D.Shalashilin@leeds.ac.uk}}
+
+%------------------------------------------------
+
+\NewEntry{2008-2012}{\MarginText{Integrated MPhys in Physics}\small\textbf{University of Leeds}}{\hfill \textit{School of Physics and Astronomy}}
+
+\Description{Classification - \textit{1st Class (Hons)}\newline
+	
+	\noindent{Description: Alongside a good basis in general physics this degree allowed me to develop my programming skills through modules in scientific programming in C and python, and allowed me to develop my numerical skills through many mathematical modules. My final year MPhys project was simulation based and required me to gain familiarity with LabView and SCHEME coding}.\newline
+	Advisor: Prof.~Ben \textsc{Varcoe}, \href{mailto:B.Varcoe@leeds.ac.uk}{B.Varcoe@leeds.ac.uk}}
+
+%------------------------------------------------
+
+\NewEntry{2007-2008}{\MarginText{Foundation Year}\small\textbf{University of Manchester}}
+
+\Description{Passed with 85\% grade, equivalent to AAA at A level in Maths, Further Maths and Physics}
+%------------------------------------------------
+
+\NewEntry{2001-2004}{\MarginText{A-Levels}\small\textbf{Notre Dame RC Sixth Form College}}
+
+\Description{Computing -- B, Maths -- C, Physics -- C}
+
+\vspace{1em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	Skills
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedallcaps{Skills}\vspace{1em}
+
+\Description{\MarginText{Programming and\\ Computational Skills}\textbullet \ \ Computation is the core of my work. Over the course of my PhD I have learnt to be proficient in Fortran, bash and the use of OpenMP, git, gnuplot, OriginPro and the SunGrid Engine\newline
+\textbullet \ \ From earlier studies I have learnt to program in C, Python and SCHEME, as well becoming proficient in LaTeX and using the graphical programming application LabView extensively during my Masters project.\newline
+\textbullet \ \ My interest in computers is not just academic; I also upgrade and build computers in my spare time.}
+
+%-----------------------------------------------
+
+\Description{\MarginText{Data Analysis}\textbullet \ \ My work creates large amounts of data (up to 70GB per run) which is impossible to manually organise. As such I have had to prepare multiple scripts and procedures to manage the data and extract information in a usable format.}
+
+%------------------------------------------------
+
+\Description{\MarginText{Analytical Thinking \& Problem Solving}\textbullet \ \ Good problem solving skills are essential in scientific research, and as such I have developed a very analytical thought process when faced with problems.\newline
+\textbullet \ \ The nature of my work to date requires a large amount of problem solving, whether it be explaining why a data set is different than expected, developing new ways to carry out simulations or simply finding bugs in the code}
+
+%------------------------------------------------
+
+\Description{\MarginText{Self Management}
+\textbullet \ \ Over the course of work towards my PhD, it has been necessary to set my own targets and deadlines, set weekly and monthly goals and manage my time properly to meet my targets.\newline
+\textbullet \ \ Have been able to balance the heavy workload of both my undergraduate and postgraduate study with my responsibilities as a parent.}
+
+%------------------------------------------------
+
+\Description{\MarginText{Teamwork}\textbullet \ \ Much of the work over the past few years has required collaboration with others, both within the research group and in other groups in other departments or universities.}
+
+%------------------------------------------------
+
+\Description{\MarginText{Communication Skills}\textbullet \ \ Over the course of my PhD I have presented my work at regional, national and international conferences, as well as at internal seminars and conferences within the department.\newline
+\textbullet \ \ Through this experience I have learnt how to explain complex ideas in terms accessible to non-specialists and how to explain and defend my work succinctly and confidently}
+
+%------------------------------------------------
+
+\Description{\MarginText{Adaptability}\textbullet \ \ My flexibility and adaptability was put to the test in starting my PhD, as I had very little experience in chemistry up to that point and was making the move from an experimental specialisation to a theoretical one. Regardless I have managed to progress well in my PhD, developing new skills and enhancing skills gained from my undergraduate degree to complete my work.}
+
+%------------------------------------------------
+
+\Description{\MarginText{Independent Learning}\textbullet \ \ Coming into a post graduate program from a different discipline required me to overcome a steep learning curve to become familiar with the background behind my project, as well as becoming familiar with the tools needed to carry out my work.}
+
+%------------------------------------------------
+
+\Description{\MarginText{Training and Teaching}\textbullet \ \ A complementary role to my research work is helping with the teaching of the undergraduate students. To this end I help with teaching in the undergraduate labs and a weekly workshop for the "Physics for Chemists" first year module.\newline
+\textbullet \ \ In the final year of my undergraduate degree I took the module ``Physics in Schools'', which placed me in a Leeds high school one afternoon a week, where it was my job to run an after school science club for age 11-13 students.}
+
+%------------------------------------------------
+
+\vspace{1em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedallcaps{Work Experience}\vspace{1em}
+
+\NewEntry{2012-Present}{\MarginText{University of Leeds}\small\textbf{Post Graduate Demonstrator}}{\hfill School of Chemistry}
+
+\Description{Consists of helping and marking the work of second year students in the undergraduate experimental labs and also helping with the teaching ofd the first year students in the ``Physics for Chemists'' module}
+
+\NewEntry{2012,2011,2010}{\MarginText{University of Leeds}\small\textbf{Summer Research Student}}{\hfill Experimental Quantum Information}
+
+\Description{Worked for two consecutive summers in the Experimental Quantum Information labs on development of a magnetic cardiogram, and in the summer of 2012 worked in the same labs helping a MSc student in the completion of his experimental work.}
+
+\NewEntry{09/09 - 01/11}{\MarginText{J.D. Wetherspoon}\small\textbf{Kitchen Associate}}{\hfill 1 City Square, Leeds, LS1 4DS}
+
+\Description{Part time position. Required me to work to strict time limits and maintain a clean, ordered and organised working environment}
+
+\NewEntry{2009,2008,2007}{\MarginText{Handyman Services Ltd.}\small\textbf{Skilled Labourer}}{\hfill 1 Hawksworth Grv., Leeds, LS5 3NB}
+
+\Description{Worked over these summers as a semi-independent contractor on jobs ranging from decorating and plastering to joinery and building. Had to also interface directly with clients and estimate costs and job completion times.}
+
+\NewEntry{11/07 - 05/08}{\MarginText{LBM Direct Marketing}\small\textbf{Level 1 Inbound Sales Agent}}{\hfill Atlantic St., Altrincham, WA14 5FY}
+
+\Description{Part time position. Employed on the O2 Inbound Sales Campaign. I mainly dealt with telephone sales enquiries. This required good multi-tasking abilities and improved my aural and verbal communication skills.}
+
+\NewEntry{04/04 - 07/07}{\MarginText{The Woodside Tavern}\small\textbf{Senior Retail Service Staff}}{\hfill 299 Low Lane, Leeds LS18 4DD}
+
+\Description{Full time position. In addition to usual pub work, as a senior member of staff I was required to organise staff, liaise with the kitchen, solve any problems with till operations or cellar issues, train new staff and ensure the restaurant and bar ran smoothly. As such I became highly proficient not just at working in a team but also at heading up my own team}
+
+\vspace{1em} % Extra space between major sections
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedallcaps{Publications}\vspace{1em}
+
+\NewEntry{February 2015}{\MarginText{Physical Review A}\small\textbf{Coupled-Coherent States Approach for High Harmonic Generation}}
+
+\Description{Authors: C. \textsc{Symonds}, ~J. \textsc{Wu}, ~M. \textsc{Ronto}, ~C. \textsc{Zagoya}, ~D. \textsc{Shalashilin}, ~C.F.~de M. \textsc{Faria}}
+
+%------------------------------------------------
+
+\NewEntry{In Preparation}{\MarginText{Physical Chemistry Chemical Physics}\small\textbf{Multidimentional quantum simulations of model systems and ab initio first principle quantum direct dynamics of ultrafast photochemistry with Multiconfigurational Ehrenfest approach.}}
+
+\Description{Authors: D. \textsc{Makhov}, ~K \textsc{Saita}, ~C. \textsc{Symonds}, ~D. \textsc{Shalashilin}}
+
+\NewEntry{In Preparation}{\MarginText{Journal of Chemical Physics}\small\textbf{Multiple Cloning corrections to the Multi-Configurational Ehrenfest approach - application to the Spin Boson Model}}
+
+\Description{Authors: C. \textsc{Symonds}, ~D. \textsc{Shalashilin}}
+
+%------------------------------------------------
+
+\vspace{1em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedallcaps{Other Information}\vspace{1em}
+
+\Description{\MarginText{Awards}2012\ \ $\cdotp$\ \ University of Leeds School of Chemistry Doctoral Training Grant}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2011\ \ $\cdotp$\ \ Nuffield Summer Research Scholarship}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2009\ \ $\cdotp$\ \ Derek Moody Award for Academic Excellence}
+
+%------------------------------------------------
+
+\vspace{1em}
+
+\Description{\MarginText{Interests}Music\ \ $\cdotp$\ \ Cooking\ \ $\cdotp$\ \ Running\ \ $\cdotp$\ \ Reading\ \ $\cdotp$\ \ ``Geekery''}
+
+%----------------------------------------------------------------------------------------
+
+\end{cv}
+
+\end{document}
