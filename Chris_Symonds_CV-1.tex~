@@ -80,7 +80,7 @@
 
 \Description{Thesis: \textit{Simulation of Quantum Effects by use of the Coupled Coherent States Family of Methods}\newline
 	
-	{Description: This work involved creating and expanding a large, modular and adaptable program using Fortran to make the necessary calculations and running this program using the ARC multicore cluster computing facility.}\newline
+	{Description: Involved developing and expanding a computational method of simulating quantum systems including atomic-electron interations in strong fields, paradigmatic two level systems and small ($>$ 16 atoms) organic molecules. This work involved creating and expanding a large, modular and adaptable program using Fortran95 to make the necessary calculations and running this program using the ARC multicore cluster computing facility.}\newline
 	Advisor: Prof.~Dmitry \textsc{Shalashilin}, \href{mailto:D.Shalashilin@leeds.ac.uk}{D.Shalashilin@leeds.ac.uk}}
 
 %------------------------------------------------
@@ -89,7 +89,7 @@
 
 \Description{Classification - \textit{1st Class (Hons)}\newline
 	
-	\noindent{Description: Alongside a good basis in general physics this degree allowed me to develop my programming skills through modules in scientific programming in C and python, and allowed me to develop my numerical skills through many mathematical modules. My final year MPhys project was simulation based and required me to gain familiarity with LabView and SCHEME coding}.\newline
+	\noindent{Description: Alongside a good basis in general physics this degree allowed me to develop my programming skills through modules in scientific programming in C and python, and allowed me to develop my numerical skills through many mathematical modules. My final year MPhys project involved investigating the properties and uses of microwave cavities, both experimentally and through simulation, with an emphasis on cavity-QED for quantum computation purposes.}\newline
 	Advisor: Prof.~Ben \textsc{Varcoe}, \href{mailto:B.Varcoe@leeds.ac.uk}{B.Varcoe@leeds.ac.uk}}
 
 %------------------------------------------------
@@ -111,6 +111,11 @@
 
 \noindent\spacedallcaps{Skills}\vspace{1em}
 
+\Description{\MarginText{Analytical Thinking \& Problem Solving}\textbullet \ \ Good problem solving skills are essential in scientific research, and as such I have developed a very analytical thought process when faced with problems.\newline
+\textbullet \ \ The nature of my work to date requires a large amount of problem solving, whether it be explaining why a data set is different than expected, developing new ways to carry out simulations or simply finding bugs in the code}
+
+%------------------------------------------------
+
 \Description{\MarginText{Programming and\\ Computational Skills}\textbullet \ \ Computation is the core of my work. Over the course of my PhD I have learnt to be proficient in Fortran, bash and the use of OpenMP, git, gnuplot, OriginPro and the SunGrid Engine\newline
 \textbullet \ \ From earlier studies I have learnt to program in C, Python and SCHEME, as well becoming proficient in LaTeX and using the graphical programming application LabView extensively during my Masters project.\newline
 \textbullet \ \ My interest in computers is not just academic; I also upgrade and build computers in my spare time.}
@@ -118,11 +123,6 @@
 %-----------------------------------------------
 
 \Description{\MarginText{Data Analysis}\textbullet \ \ My work creates large amounts of data (up to 70GB per run) which is impossible to manually organise. As such I have had to prepare multiple scripts and procedures to manage the data and extract information in a usable format.}
-
-%------------------------------------------------
-
-\Description{\MarginText{Analytical Thinking \& Problem Solving}\textbullet \ \ Good problem solving skills are essential in scientific research, and as such I have developed a very analytical thought process when faced with problems.\newline
-\textbullet \ \ The nature of my work to date requires a large amount of problem solving, whether it be explaining why a data set is different than expected, developing new ways to carry out simulations or simply finding bugs in the code}
 
 %------------------------------------------------
 
@@ -199,7 +199,7 @@
 
 %------------------------------------------------
 
-\NewEntry{In Preparation}{\MarginText{Physical Chemistry Chemical Physics}\small\textbf{Multidimentional quantum simulations of model systems and ab initio first principle quantum direct dynamics of ultrafast photochemistry with Multiconfigurational Ehrenfest approach.}}
+\NewEntry{In Preparation}{\MarginText{Journal of Physical Chemistry A}\small\textbf{Multidimentional quantum simulations of model systems and ab initio first principle quantum direct dynamics of ultrafast photochemistry with Multiconfigurational Ehrenfest approach.}}
 
 \Description{Authors: D. \textsc{Makhov}, ~K \textsc{Saita}, ~C. \textsc{Symonds}, ~D. \textsc{Shalashilin}}
 
