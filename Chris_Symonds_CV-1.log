@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.9.17)  24 JUN 2015 18:48
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.9.17)  1 SEP 2015 21:46
 entering extended mode
  %&-line parsing enabled.
 **Chris_Symonds_CV-1.tex
@@ -402,23 +402,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--93
 
  []
 
+LaTeX Font Info:    Try loading font information for OMS+pplj on input line 115
+.
+LaTeX Font Info:    No file OMSpplj.fd. on input line 115.
 
-Overfull \hbox (5.18979pt too wide) in paragraph at lines 116--116
+LaTeX Font Warning: Font shape `OMS/pplj/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 115.
+
+
+Overfull \hbox (5.18979pt too wide) in paragraph at lines 121--121
  []\OT1/pplj/b/it/12 Computational
  []
 
 
-Overfull \hbox (5.18979pt too wide) in paragraph at lines 116--116
+Overfull \hbox (5.18979pt too wide) in paragraph at lines 121--121
 []\OT1/pplj/b/it/12 Computational 
  []
-
-LaTeX Font Info:    Try loading font information for OMS+pplj on input line 116
-.
-LaTeX Font Info:    No file OMSpplj.fd. on input line 116.
-
-LaTeX Font Warning: Font shape `OMS/pplj/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 116.
 
 [1
 
@@ -429,13 +429,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6149 strings out of 256216
- 89026 string characters out of 1917072
+ 6154 strings out of 256216
+ 89066 string characters out of 1917072
  200496 words of memory out of 1500000
  9233 multiletter control sequences out of 10000+200000
- 41742 words of font info for 148 fonts, out of 1200000 for 2000
+ 42000 words of font info for 152 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 40i,7n,37p,469b,461s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 40i,7n,37p,502b,461s stack positions out of 5000i,500n,6000p,200000b,15000s
 {/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/b
 luesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy9.pfb></usr/s
 hare/texmf/fonts/type1/public/fpl/fplbj8a.pfb></usr/share/texmf/fonts/type1/pub
@@ -443,7 +443,7 @@ lic/fpl/fplrc8a.pfb></usr/share/texmf/fonts/type1/public/fpl/fplrij8a.pfb></usr
 /share/texmf/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf/fonts/type1/
 urw/palatino/uplbi8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplr8a.pfb>
 </usr/share/texmf/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Chris_Symonds_CV-1.pdf (3 pages, 107751 bytes).
+Output written on Chris_Symonds_CV-1.pdf (3 pages, 108460 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 131072)

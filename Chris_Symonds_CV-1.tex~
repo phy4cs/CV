@@ -80,7 +80,7 @@
 
 \Description{Thesis: \textit{Simulation of Quantum Effects by use of the Coupled Coherent States Family of Methods}\newline
 	
-	{Description: This work involved creating and expanding a large, modular and adaptable program using a large Fortran to make the necessary calculations and running this program using the ARC multicore cluster computing facility.}\newline
+	{Description: This work involved creating and expanding a large, modular and adaptable program using Fortran to make the necessary calculations and running this program using the ARC multicore cluster computing facility.}\newline
 	Advisor: Prof.~Dmitry \textsc{Shalashilin}, \href{mailto:D.Shalashilin@leeds.ac.uk}{D.Shalashilin@leeds.ac.uk}}
 
 %------------------------------------------------
@@ -89,7 +89,7 @@
 
 \Description{Classification - \textit{1st Class (Hons)}\newline
 	
-	\noindent{Description: Alongside a good basis in general physics this degree allowed me to develop my programming skills through modules in scientific programming in C, C++ and python, and allowed me to develop my numerical skills through many mathematical modules. My final year MPhys project was simulation based and required me to gain familiarity with LabView and SCHEME coding}.\newline
+	\noindent{Description: Alongside a good basis in general physics this degree allowed me to develop my programming skills through modules in scientific programming in C and python, and allowed me to develop my numerical skills through many mathematical modules. My final year MPhys project was simulation based and required me to gain familiarity with LabView and SCHEME coding}.\newline
 	Advisor: Prof.~Ben \textsc{Varcoe}, \href{mailto:B.Varcoe@leeds.ac.uk}{B.Varcoe@leeds.ac.uk}}
 
 %------------------------------------------------
@@ -112,7 +112,7 @@
 \noindent\spacedallcaps{Skills}\vspace{1em}
 
 \Description{\MarginText{Programming and\\ Computational Skills}\textbullet \ \ Computation is the core of my work. Over the course of my PhD I have learnt to be proficient in Fortran, bash and the use of OpenMP, git, gnuplot, OriginPro and the SunGrid Engine\newline
-\textbullet \ \ From earlier studies I have learnt to program in C, C++, Python and SCHEME, as well becoming proficient in LaTeX and using the graphical programming application LabView extensively during my Masters project.\newline
+\textbullet \ \ From earlier studies I have learnt to program in C, Python and SCHEME, as well becoming proficient in LaTeX and using the graphical programming application LabView extensively during my Masters project.\newline
 \textbullet \ \ My interest in computers is not just academic; I also upgrade and build computers in my spare time.}
 
 %-----------------------------------------------
